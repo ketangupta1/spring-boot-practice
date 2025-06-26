@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: store
+server:
+  port: 8090
+stripe:
+  enabled: True
+  timeout: 1000
+  supported_currencies: USD, IND
+  payment_method: paypal
