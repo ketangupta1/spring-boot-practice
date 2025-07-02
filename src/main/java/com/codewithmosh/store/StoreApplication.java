@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+//Alt+Insert to generate context menu
+
 @SpringBootApplication
 public class StoreApplication {
 
