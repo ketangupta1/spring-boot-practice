@@ -5,10 +5,5 @@ spring:
     url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
     username: root
     password: mypassword
-stripe:
-  enabled: True
-  timeout: 1000
-  supported_currencies: USD, IND
-  payment_method: paypal
-server:
-  port: 8090
+  jpa:
+    show-sql: true
